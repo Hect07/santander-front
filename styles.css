@@ -1,0 +1,21 @@
+h1{
+    color: rgb(10, 10, 94);
+    font-size: 100px;
+}
+
+h2{
+    color: rgb(58, 180, 9);
+    background-color: #025157;
+}
+
+p {
+    color: #8b8b8bcc;
+}
+
+button {
+    color: #fff;
+}
+
+body{
+    background-color: #fffbf7;
+}
