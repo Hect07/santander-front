@@ -23,10 +23,14 @@ body{
 .header {
     margin: 40px 20px 0px 20px;
     font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
   }
 
-li{
+.menu-item{
     display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
 }
 
 .header > * {
@@ -44,7 +48,8 @@ li{
 .navbar{
     width: 70%;
     text-align: center;
-    color: green;
+    color: #025157;
+    font-weight: 500;
 }
 
 .actions{
@@ -52,3 +57,23 @@ li{
     text-align: right;
     font-size: 14px;
 }
+
+.actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+.actions a {
+    color: #67b54b;
+  }
+
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }
